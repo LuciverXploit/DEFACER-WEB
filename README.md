@@ -55,7 +55,7 @@ $ cd DEFACER-WEB
 
 $ git pull
 
-$ python target.py
+$ python luci.py
 
 ### Screenshot:
 <p align="center">
