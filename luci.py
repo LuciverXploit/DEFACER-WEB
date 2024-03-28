@@ -29,36 +29,7 @@ from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as luciana
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
 
-try:
-        import rich
-except ImportError:
-        cetak(nel('\t• Sedang Menginstall Modul Rich •'))
-        os.system('pip install rich')
-try:
-        import stdiomask
-except ImportError:
-        cetak(nel('\t• Sedang Menginstall Modul Stdiomask •'))
-        os.system('pip install stdiomask')
-try:
-	import requests
-except ImportError:
-	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
-	os.system('pip install requests && pip install mechanize ')
-
-pretty.install()
-CON=sol()
-wa = Console()
-taplikasi=[]
-gabriel=[]
-uidl =[]
-opsi=[]
-uidf=[]
-liu=[]
-luci = []
-console = Console()
-ses=requests.Session()
-id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
-ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
+     
 sys.stdout.write('\x1b]2; LUCIVERXPLOIT DEFACER INDONESIA\x07')
 def luciverxploit(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
